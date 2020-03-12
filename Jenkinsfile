@@ -2,7 +2,7 @@ node
 {
   stage('SCM-CheckIn From GitHub')
   {
-      git 'https://github.com/amitbaria/ms-java-dashboard'
+      git 'https://github.com/amitbaria/ms-java-dashboard11111'
     
   }
   stage('Clean and Mavenpackage')
