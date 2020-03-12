@@ -78,13 +78,11 @@ public class WidgetCategoriesServiceImp implements  WidgetCategoriesService {
 	
 	
 	
-	public String calltest()
+	public String calltest(List<String> msg)
 	{
 		
-	   
 	    
-	    
-		return new WidgetCategoriesResponse().Test(getAllWidgetCategoryCodes());
+		return new WidgetCategoriesResponse().Test(msg);
 	}
 	
 }

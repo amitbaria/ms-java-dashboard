@@ -219,7 +219,7 @@ public	MainTest()
 			    List<String>  list=Arrays.asList("abc","pqr");
 			    String expected="abcpqr";
 	       	    when(response.Test(list)).thenReturn(expected);
-			    String actual =messageService.calltest();
+			    String actual =messageService.calltest(list);
 			    LOGGER.info(actual+" ..........................................");
 			    Assertions.assertEquals(expected, actual);
      }		
