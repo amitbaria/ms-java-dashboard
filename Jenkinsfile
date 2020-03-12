@@ -5,7 +5,7 @@ node
       git 'https://github.com/amitbaria/ms-java-dashboard'
     
   }
-  stage('Clean and Maven package')
+  stage('Clean and Mavenpackage')
   {
       def mvnHome= tool name: 'maven3', type: 'maven'
       sh  "${mvnHome}/bin/mvn package"  
