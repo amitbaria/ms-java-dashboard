@@ -5,7 +5,7 @@ node
       git 'https://github.com/amitbaria/ms-java-dashboard'
     
   }
-  stage(Clean and Maven package)
+  stage('Clean and Maven package')
   {
       sh 'mvn package'
   }
